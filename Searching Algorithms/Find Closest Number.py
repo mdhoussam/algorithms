@@ -19,7 +19,7 @@ Examples:
 """
 
 A = [2, 5, 6, 7, 8, 8, 9]
-target = 4
+target = int(input("enter the target valus"))#4
 def find_closest_num(A, target):
    min_diff = float("inf")
    low = 0
