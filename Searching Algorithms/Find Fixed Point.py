@@ -40,4 +40,8 @@ def find_fixed_point(A):
             return A[mid]
     return None
 
+<<<<<<< HEAD
 print(find_fixed_point(A))
+=======
+print(find_fixed_point(A))
+>>>>>>> 48fa59faa1ea26928405ada8ee6b13e4daa7478b
