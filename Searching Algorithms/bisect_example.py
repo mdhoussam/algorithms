@@ -43,9 +43,11 @@ print(bisect.bisect(A, 285))
 # A such that the list remains sorted. Functions "insort_left" and
 # "insort_right" behave in a similar way to "bisect_left" and "bisect_right",
 # only the insort functions insert at the index positions.
+"""
 print(A)
 bisect.insort_left(A, 108)
 print(A)
 
 bisect.insort_right(A, 108)
 print(A)
+"""
